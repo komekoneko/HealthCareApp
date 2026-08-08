@@ -1,8 +1,8 @@
-export interface Scoreable {
+interface Scoreable {
     readonly totalScore: number;
     render(): void;
 }
-export interface Foodable {
+interface Foodable {
     element: HTMLDivElement;
     clickEventHandler(): void;
 }
@@ -11,3 +11,4 @@ export interface Foodsable {
     readonly activeElements: HTMLDivElement[];
     readonly activeElementsScore: number[];
 }
+export type { Scoreable, Foodable };
