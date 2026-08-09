@@ -1,5 +1,5 @@
-import { Foodsable as FoodListable }from "./interfaces.js"
-import { Food } from "./food.js"
+import { Foodsable as FoodListable }from "./interfaces"
+import { Food } from "./food"
 
 
 export class Foods implements FoodListable {
